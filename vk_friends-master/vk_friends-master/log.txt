@@ -1,0 +1,16 @@
+INFO - 2017-12-06 16:18:42,237 - started loading graph
+INFO - 2017-12-06 16:18:42,237 - started loading graph
+C:\Anaconda3\lib\site-packages\networkx\drawing\nx_pylab.py:126: MatplotlibDeprecationWarning: pyplot.hold is deprecated.
+    Future behavior will be consistent with the long-time default:
+    plot commands add elements without first clearing the
+    Axes and/or Figure.
+  b = plt.ishold()
+C:\Anaconda3\lib\site-packages\networkx\drawing\nx_pylab.py:138: MatplotlibDeprecationWarning: pyplot.hold is deprecated.
+    Future behavior will be consistent with the long-time default:
+    plot commands add elements without first clearing the
+    Axes and/or Figure.
+  plt.hold(b)
+C:\Anaconda3\lib\site-packages\matplotlib\__init__.py:917: UserWarning: axes.hold is deprecated. Please remove it from your matplotlibrc and/or style files.
+  warnings.warn(self.msg_depr_set % key)
+C:\Anaconda3\lib\site-packages\matplotlib\rcsetup.py:152: UserWarning: axes.hold is deprecated, will be removed in 3.0
+  warnings.warn("axes.hold is deprecated, will be removed in 3.0")
