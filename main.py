@@ -230,23 +230,9 @@ def DrawGraph(G):
 if __name__ == '__main__':
     a = VkFriends(token, my_id, api_v, max_workers)
 
-    # G = BuildGraph(a)
-    # SaveGraph(G)
+    g = BuildGraph(a)
+    SaveGraph(g)
 
-    G = LoadGraph()
-    DrawGraph(G)
+    # G = LoadGraph()
+    # DrawGraph(G)
 
-    # DrawGraph(a)
-
-    # friends = a.friends(232845615)
-    # for f in friends[0]:
-        # print(f, friends[0][f])
-    # quit()
-
-    # print(a.my_name, a.my_last_name, a.my_id, a.photo)
-    # print(a.common_friends())
-    # df = a.deep_friends(deep)
-    # print(df)
-    # VkFriends.save_load_deep_friends('deep_friends_dct', True, df)
-    #print(pickle.load( open('deep_friends_dct', "rb" )))
-    #print(a.from_where_gender())
