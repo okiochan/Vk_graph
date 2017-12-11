@@ -1,6 +1,5 @@
 # Vk_graph
-vk_friends
-==========
+
 
 Граф дружеских связей в vk.com. Больше инфы можно прочитать [здесь](http://habrahabr.ru/post/221251/) и [здесь](http://habrahabr.ru/post/243229/). Если вам нужен старый релиз, то он [тут](https://github.com/stleon/vk_friends/releases/tag/v1.0.0). Перед тем, как что-то делать, рекомендую прочесть всю документацию.
 
