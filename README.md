@@ -1,9 +1,9 @@
 # Vk_graph
 
 
-Граф дружеских связей в vk.com. Больше инфы можно прочитать [здесь](http://habrahabr.ru/post/221251/) и [здесь](http://habrahabr.ru/post/243229/). Если вам нужен старый релиз, то он [тут](https://github.com/stleon/vk_friends/releases/tag/v1.0.0). Перед тем, как что-то делать, рекомендую прочесть всю документацию.
+Граф дружеских связей в vk.com. Больше инфы можно прочитать [здесь](http://habrahabr.ru/post/221251/).
 
-##Что нужно
+#Что нужно
 
 * Python 3.4
 * [requests](https://github.com/kennethreitz/requests)
@@ -11,7 +11,7 @@
 * [Celery](http://www.celeryproject.org)
 * [networkx](https://github.com/networkx/networkx)
 
-##Первые шаги
+#Первые шаги
 
 Для начала необходимо создать [Standalone-приложение](https://vk.com/dev/standalone) в VK. Делается это [там](https://vk.com/editapp?act=create). В итоге попросят ввести код-подтверждения, высланный на мобильный, после чего мы попадаем на страницу управления приложением. На вкладке **Настройки** нам пригодится **ID приложения** для получения **access_token**. 
 
