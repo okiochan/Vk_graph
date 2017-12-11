@@ -233,6 +233,6 @@ if __name__ == '__main__':
     g = BuildGraph(a)
     SaveGraph(g)
 
-    # G = LoadGraph()
-    # DrawGraph(G)
+    g = LoadGraph()
+    DrawGraph(g)
 
