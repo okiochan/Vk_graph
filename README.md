@@ -24,4 +24,6 @@ https://oauth.vk.com/authorize?client_id=IDприложения&scope=friends,of
 ```
 https://oauth.vk.com/blank.html#access_token=ACCESS_TOKEN&expires_in=0&user_id=USER_ID
 ```
+# Пример работы программы
 
+![](https://raw.githubusercontent.com/okiochan/Vk_graph/master/scrin.png)
